@@ -30,7 +30,7 @@ public class UtilFilmFileReader {
 
 
         } catch (Exception e) {
-            System.err.println("Error de lectura del fichero de datos: imdb_data");
+            System.err.println("Data file reading error: imdb_data");
             System.exit(-1);
         }
 
