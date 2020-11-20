@@ -3,12 +3,14 @@ package com.fernandofuentesfullstack.movieadvisor.repository;
 import com.fernandofuentesfullstack.movieadvisor.config.AppConfig;
 import com.fernandofuentesfullstack.movieadvisor.model.Film;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class FilmRepositoryImplMemory implements FilmRepository {
 
     List<Film> films = new ArrayList<>();
